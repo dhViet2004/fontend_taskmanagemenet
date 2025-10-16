@@ -55,10 +55,31 @@ const Login = () => {
             // Database of users with their roles
             const users = [
                 {
+                    email: 'manager@company.com',
+                    password: 'manager123',
+                    id: 1,
+                    name: 'Quản lý',
+                    role: 'manager'
+                },
+                {
                     email: 'employee@company.com',
                     password: 'employee123',
                     id: 2,
                     name: 'Nhân viên',
+                    role: 'employee'
+                },
+                {
+                    email: 'nv001@company.com',
+                    password: 'nv001123',
+                    id: 3,
+                    name: 'Nguyễn Văn An',
+                    role: 'employee'
+                },
+                {
+                    email: 'nv002@company.com',
+                    password: 'nv002123',
+                    id: 4,
+                    name: 'Trần Thị Bình',
                     role: 'employee'
                 }
             ]
@@ -205,18 +226,11 @@ const Login = () => {
                             Tài khoản demo:
                         </Text>
                         <div className="space-y-1">
-                            <Text className="text-xs text-gray-500 block">
-                                <strong>Quản lý:</strong> manager@company.com / manager123
-                            </Text>
+                            
                             <Text className="text-xs text-gray-500 block">
                                 <strong>Nhân viên:</strong> employee@company.com / employee123
                             </Text>
-                            <Text className="text-xs text-gray-500 block">
-                                <strong>NV001:</strong> nv001@company.com / nv001123
-                            </Text>
-                            <Text className="text-xs text-gray-500">
-                                <strong>NV002:</strong> nv002@company.com / nv002123
-                            </Text>
+                           
                         </div>
                     </div>
                 </Card>
