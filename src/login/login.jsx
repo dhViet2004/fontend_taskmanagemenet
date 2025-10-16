@@ -54,7 +54,6 @@ const Login = () => {
             // Mock authentication - replace with real API call
             // Database of users with their roles
             const users = [
-
                 {
                     email: 'employee@company.com',
                     password: 'employee123',
