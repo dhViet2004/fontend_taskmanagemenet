@@ -54,32 +54,12 @@ const Login = () => {
             // Mock authentication - replace with real API call
             // Database of users with their roles
             const users = [
-                {
-                    email: 'manager@company.com',
-                    password: 'manager123',
-                    id: 1,
-                    name: 'Quản lý',
-                    role: 'manager'
-                },
+
                 {
                     email: 'employee@company.com',
                     password: 'employee123',
                     id: 2,
                     name: 'Nhân viên',
-                    role: 'employee'
-                },
-                {
-                    email: 'nv001@company.com',
-                    password: 'nv001123',
-                    id: 3,
-                    name: 'Nguyễn Văn An',
-                    role: 'employee'
-                },
-                {
-                    email: 'nv002@company.com',
-                    password: 'nv002123',
-                    id: 4,
-                    name: 'Trần Thị Bình',
                     role: 'employee'
                 }
             ]
